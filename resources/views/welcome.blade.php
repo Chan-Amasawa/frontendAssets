@@ -2,7 +2,10 @@
 
 @section('content')
     <div class=" m-5">
-        <h1 class="text-primary">I'm About</h1>
+        <h1 class="text-primary animate__animated animate__bounce">
+            I'm Welcome
+            <i class='bi bi-house'></i>
+        </h1>
         <p class="text-black-50 w-50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, corporis minus minima esse
             aspernatur
