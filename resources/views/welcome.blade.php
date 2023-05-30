@@ -13,6 +13,10 @@
             pariatur.
         </p>
         <button class="btn btn-primary" id="greeting">Say Hello</button>
-        <a href="{{ route('about') }}" class="btn btn-link">Go to Welcome</a>
+        <a href="{{ route('about') }}" class="btn btn-link">Go to About</a>
     </div>
 @endsection
+
+@push('script')
+    @vite('resources/js/indexPage.js')
+@endpush

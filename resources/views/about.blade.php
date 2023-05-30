@@ -2,7 +2,7 @@
 
 @section('content')
     <div class=" m-5">
-        <h1 class="text-primary">I'm About</h1>
+        <h1 class="text-primary" id="aboutHeading">I'm About</h1>
         <p class="text-black-50 w-50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, corporis minus minima esse
             aspernatur
@@ -10,6 +10,10 @@
             pariatur.
         </p>
         <button class="btn btn-primary" id="sayName">Say My Name</button>
-        <a href="{{ route('index') }}" class="btn btn-link">Go to About</a>
+        <a href="{{ route('index') }}" class="btn btn-link">Go to Welcome</a>
     </div>
 @endsection
+
+@push('script')
+    @vite('resources/js/aboutPage.js');
+@endpush
