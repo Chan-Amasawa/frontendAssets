@@ -14,6 +14,7 @@
         </p>
         <button class="btn btn-primary" id="greeting">Say Hello</button>
         <a href="{{ route('about') }}" class="btn btn-link">Go to About</a>
+        <button class="btn btn-sm" onclick="run()">Run</button>
     </div>
 @endsection
 
